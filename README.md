@@ -25,3 +25,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+### `npm run deploy`
+
+create a new build that will be displayed at the following url: [Go to site](https://kincasasbuenas.github.io/boldco/) 
+
