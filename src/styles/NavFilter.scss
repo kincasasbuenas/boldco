@@ -1,0 +1,41 @@
+@import './base/colors';
+@import './base/breakpoints';
+
+.navbar-filter {
+    background: $white-color;
+
+    .navbar-items {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 7px;
+        gap: 10px;
+
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color: $primary-blue;
+            gap: 15px;
+            padding: 7px 15px;
+            cursor: pointer;
+            min-width: 180px;
+
+            &.active {
+                background: $bg-color;
+                border-radius: 15px; 
+            }
+
+            &:last-child {
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+@media (max-width: $screen__l) { 
+    body .navbar-filter {
+        .navbar-items .nav-item {
+            min-width: auto;
+        }
+    }
+}

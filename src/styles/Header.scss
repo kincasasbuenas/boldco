@@ -1,0 +1,17 @@
+@import './base/colors';
+
+.header{
+   box-sizing: border-box;
+   background: linear-gradient(to right,$primary-blue 0%,$primary-red 100%);
+   display: flex;
+   align-items: center;
+   padding: 26px 3%;
+   max-height: 83px;
+   -webkit-justify-content: space-between;
+   -ms-flex-pack: start;
+   justify-content: space-between;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 20;
+}

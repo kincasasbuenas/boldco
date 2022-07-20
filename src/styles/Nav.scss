@@ -1,0 +1,45 @@
+@import './base/colors';
+
+.main-nav {
+    width: 100%;
+    max-width: unset;
+    top: unset;
+    padding: 0;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    overflow: visible;
+    height: 83px;
+    align-items: center;
+    visibility: visible!important;
+
+    .nav-menu {
+        flex-direction: row;
+        padding: 0;
+        height: 100%;
+        align-items: center;
+        display: flex;
+
+        li {
+            box-sizing: border-box;
+            display: flex;
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 500;
+            border-bottom: 0;
+            white-space: nowrap;
+            height: 100%;
+            align-items: center;
+            padding: 0 10px;
+
+            a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1rem;
+                font-weight: 500;
+                color:$white-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
