@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/boldco/static/css/main.26c61868.css",
+    "main.js": "/boldco/static/js/main.e06cc0ef.js",
+    "static/media/logo.svg": "/boldco/static/media/logo.7f3e8d02e0fdfeef1020e2d863df7481.svg",
+    "index.html": "/boldco/index.html",
+    "main.26c61868.css.map": "/boldco/static/css/main.26c61868.css.map",
+    "main.e06cc0ef.js.map": "/boldco/static/js/main.e06cc0ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26c61868.css",
+    "static/js/main.e06cc0ef.js"
+  ]
+}
